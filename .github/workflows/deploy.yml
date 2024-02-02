@@ -19,3 +19,5 @@ jobs:
           script: |
             cd /home/ctkpaarr/website
             git pull origin main
+            pnpm run build
+            echo 'build complete'
