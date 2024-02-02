@@ -19,6 +19,7 @@ jobs:
           script: |
             cd /home/ctkpaarr/website
             git pull origin main
+            rm -rf pnpm-lock.yaml
             pnpm i
             pnpm run build
             echo 'build complete'
