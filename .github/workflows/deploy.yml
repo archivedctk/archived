@@ -21,3 +21,4 @@ jobs:
             git pull origin main
             pnpm run build
             echo 'build complete'
+            pnpm i
