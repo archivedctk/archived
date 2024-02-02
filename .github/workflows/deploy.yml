@@ -17,5 +17,5 @@ jobs:
           username: ${{secrets.SSH_USERNAME}}
           port: ${{secrets.SSH_PORT}}
           script: |
-            cd /home/ctkpaarr
+            cd /home/ctkpaarr/website
             git pull origin main
