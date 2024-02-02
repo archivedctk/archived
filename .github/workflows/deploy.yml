@@ -19,6 +19,6 @@ jobs:
           script: |
             cd /home/ctkpaarr/website
             git pull origin main
-            pnpm i --frozen-lockfile
+            pnpm i --no-frozen-lockfile
             pnpm run build
             echo 'build complete'
