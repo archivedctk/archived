@@ -15,5 +15,10 @@ export default defineConfig({
 	}),
 	server: {
 		port: 1919
-	}
+	},
+	vite: {
+    	ssr: {
+      		noExternal: ['path-to-regexp'],
+    	},
+  	},
 });
