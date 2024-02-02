@@ -19,6 +19,6 @@ jobs:
           script: |
             cd /home/ctkpaarr/website
             git pull origin main
+            pnpm i
             pnpm run build
             echo 'build complete'
-            pnpm i
