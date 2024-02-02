@@ -1,2 +1,3 @@
 # 荒らし.com
-Private Repo | 荒らし.com 用
+荒らし.com 用
+荒らし共栄圏最強
