@@ -18,4 +18,4 @@ jobs:
           port: ${{secrets.SSH_PORT}}
           script: |
             cd ctkpaarr
-            git pull origin main     
+            git pull origin main
