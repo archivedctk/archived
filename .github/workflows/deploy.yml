@@ -1,4 +1,4 @@
-name: CI to Origin Server
+name: CI to Server
 on:
   push:
     branches: [main]
