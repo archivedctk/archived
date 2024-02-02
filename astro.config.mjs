@@ -14,7 +14,7 @@ export default defineConfig({
 		mode: "standalone",
 	}),
 	server: {
-		port: 1919
+		port: 8080
 	},
 	vite: {
     	ssr: {
