@@ -2,8 +2,7 @@ name: CI to Take Server
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [ main ]
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

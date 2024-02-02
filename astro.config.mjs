@@ -21,4 +21,5 @@ export default defineConfig({
       		noExternal: ['path-to-regexp'],
     	},
   	},
+	host: true
 });
