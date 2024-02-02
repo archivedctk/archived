@@ -18,7 +18,8 @@ jobs:
           port: ${{secrets.SSH_PORT}}
           script: |
             cd /home/ctkpaarr/website &&
-            git pull origin main &&
+            git fetch origin main &&
+            git reset --hard origin/main &&
             pnpm i --no-frozen-lockfile &&
             pnpm run build &&
             echo 'build complete'
