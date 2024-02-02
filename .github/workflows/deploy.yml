@@ -1,4 +1,4 @@
-name: CI to take Server
+name: CI to Take Server
 on:
   push:
     branches: [main]
