@@ -7,7 +7,7 @@ import nodejs from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://荒らし.com',
+	site: 'https://archive.md',
 	integrations: [mdx(), sitemap()],
 	output: "server",
 	adapter: nodejs({
